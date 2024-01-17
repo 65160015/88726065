@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     const todoList = document.getElementById("todo-list");
+    //การเรียกเพื่อเพิ่ม Input ข้อมูล
     const todoInput = document.getElementById("todo-input");
+    //การเรียกเพื่อเพิ่ม button
     const addButton = document.getElementById("add-button");
     // อาร์เรย์สำหรับเก็บรายการ Todo
     let todos = [];
@@ -9,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const todoText = todoInput.value.trim();
         if (todoText !== "") {
             const todoItem = {
-    
             text: todoText,
             completed: false,
         };
@@ -32,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function renderTodoList() {
         console.log(todos);
         todoList.innerHTML = "";
+        //ใช้คำสั่ง for ในการกำหนก loop ของ todo
         for (let i = 0; i < todos.length; i++) {
             const todoItem = todos[i];
             const listItem = document.createElement("li");
