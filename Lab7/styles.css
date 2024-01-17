@@ -3,12 +3,12 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin: 20px;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     }
     h1 {
-    color: #706e8e;
+    color: #3a31ad;
     font-size: 24px;
-    background-color: #66b3fc;
+    background-color: #4fd8ea;
     padding: 15px;
     border-radius: 5px;
     color: rgb(0, 0, 0);
@@ -32,26 +32,26 @@ body {
     transition: background-color 0.3s, transform 0.2s;
     }
     li.completed {
-    background-color: #d4edda;
+    background-color: #7fe4d8;
     text-decoration: line-through;
     }
     input[type="text"] {
     width: 60%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #7fe4d8;
     border-radius: 8px;
     margin-right: 10px;
     font-size: 16px;
     }
     button {
-    padding: 12px 24px;
-    background-color: #ffaced;
+    padding: 10px 24px;
+    background-color: #5cd9a9;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
     }
     button:hover {
-    background-color: #0056b3;
+    background-color: #3cdab5;
     }
